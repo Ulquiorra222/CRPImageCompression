@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "imageConpressionDemo","imageConpressionDemo/**/*.{swift,h,m}"
+  spec.source_files  = "imageConpressionDemo","imageConpressionDemo/**/*.{h,swift}"
   spec.exclude_files = "imageConpressionDemo/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -115,7 +115,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "imageCompression"
+  spec.frameworks = "imageCompression","UIKit","Foundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
