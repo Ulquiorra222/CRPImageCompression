@@ -1,0 +1,11 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name imageCompression
+import Foundation
+import Swift
+import UIKit
+@objc @objcMembers public class imageCompression : ObjectiveC.NSObject {
+  @objc public func getCompression(image: UIKit.UIImage) -> [Swift.UInt8]
+  @objc override dynamic public init()
+  @objc deinit
+}

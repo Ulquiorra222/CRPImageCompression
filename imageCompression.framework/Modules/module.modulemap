@@ -1,0 +1,4 @@
+framework module imageCompression {
+  header "imageCompression-Swift.h"
+  requires objc
+}
